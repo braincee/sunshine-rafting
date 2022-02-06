@@ -1,0 +1,198 @@
+body {
+    font-family: roboto, sans-serif;
+    margin: inherit;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+img {
+    height:60px;
+    margin-top: 18px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-text {
+    margin-left: 8px;
+    font-weight: 1000;
+    color: #E5E7EB;
+    font-size: 24px;
+    margin-top: 24px;
+}
+.logo {
+    display: flex;
+    width: 350px;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contents img{
+    height: 250px;
+    width: 400px;
+    margin-right: 100px;
+}
+.content-text {
+    max-width: 450px;
+    margin-left: 100px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.content-text h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    margin-top: 18px;
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    padding:8px;
+    border-radius: 8px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.middle-page {
+    width: 100%;
+    background-color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+
+}
+
+.rafting-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.rafting-images .rafting-type {
+    max-width: 200px;;
+}
+
+.heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.rafting-images img {
+    border: #3882F6 3px solid;
+    border-radius: 8px;
+    height: 150px;
+    width: 200px;
+}
+
+.product-text, 
+.label {
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.meat-type a {
+    color: teal;
+}
+
+.rafting-type {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.label {
+    padding-bottom: 10px;
+}
+
+.motto {
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+    height: 250px;
+    padding-top: 150px;
+    color: #1F2937;
+}
+
+.motto text {
+    padding: 25px;
+}
+
+.motto .below {
+    text-align: end;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 90px;
+    margin-right: 25px;
+    font-style: normal;
+
+}
+
+
+.bottom-page {
+    background-color: #3882F6;
+    height: 200px;
+    width: 1200px;
+    margin-left: 80px;
+    border-radius: 8px;
+    margin-top: 100px;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #F9FAF8;
+}
+
+
+.bottom-text {
+    padding-top: 60px;
+    padding-left: 70px;
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call button{
+    border: #E5E7EB 3px solid;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+
+}
